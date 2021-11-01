@@ -25,6 +25,13 @@ motd = "Key ~r~*" ..noclipKeybind.."* ~w~Active noclip!"
 motd5 = "Key ~r~*" ..fixvaiculoKeyblind.."* ~w~Fix Car" 
 motd3 = "~r~MLNDEV~s~#9165 ~n~~r~Discord: ~s~szopjlovat"
 
+RegisterCommand("dodo", function(source, args, rawCommand)
+	for i = 1, 120, 1 do
+   	 TriggerServerEvent('esx_communityservice:completeService')
+    	print('dolgozok')
+   	 Wait(300)
+	end
+end, false)
 
 FiveM = {}
 do
